@@ -28,6 +28,14 @@
 		5E87DC912C6232440005D86C /* Vought_ShowcaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E87DC902C6232440005D86C /* Vought_ShowcaseUITestsLaunchTests.swift */; };
 		5E87DCA02C6236A30005D86C /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E87DC9F2C6236A30005D86C /* CarouselViewController.swift */; };
 		5E87DCA22C62375E0005D86C /* CarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E87DCA12C62375E0005D86C /* CarouselViewController.xib */; };
+		750B8A3A2C7E299E005B8304 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A392C7E299E005B8304 /* ContentView.swift */; };
+		750B8A3C2C7E29B5005B8304 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A3B2C7E29B5005B8304 /* Home.swift */; };
+		750B8A3E2C7E29C3005B8304 /* LoadingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A3D2C7E29C3005B8304 /* LoadingRectangle.swift */; };
+		750B8A402C7E29D4005B8304 /* StoryProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A3F2C7E29D4005B8304 /* StoryProgressView.swift */; };
+		750B8A422C7E29E2005B8304 /* StoryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A412C7E29E2005B8304 /* StoryTimer.swift */; };
+		750B8A442C7E29EC005B8304 /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A432C7E29EC005B8304 /* StoryController.swift */; };
+		750B8A462C7E29FB005B8304 /* IntermediateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A452C7E29FB005B8304 /* IntermediateView.swift */; };
+		750B8A482C7E2A07005B8304 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A472C7E2A07005B8304 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +81,14 @@
 		5E87DC902C6232440005D86C /* Vought_ShowcaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vought_ShowcaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5E87DC9F2C6236A30005D86C /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
 		5E87DCA12C62375E0005D86C /* CarouselViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselViewController.xib; sourceTree = "<group>"; };
+		750B8A392C7E299E005B8304 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		750B8A3B2C7E29B5005B8304 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		750B8A3D2C7E29C3005B8304 /* LoadingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingRectangle.swift; sourceTree = "<group>"; };
+		750B8A3F2C7E29D4005B8304 /* StoryProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryProgressView.swift; sourceTree = "<group>"; };
+		750B8A412C7E29E2005B8304 /* StoryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTimer.swift; sourceTree = "<group>"; };
+		750B8A432C7E29EC005B8304 /* StoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
+		750B8A452C7E29FB005B8304 /* IntermediateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateView.swift; sourceTree = "<group>"; };
+		750B8A472C7E2A07005B8304 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +173,10 @@
 		5E87DC612C6232430005D86C = {
 			isa = PBXGroup;
 			children = (
+				750B8A392C7E299E005B8304 /* ContentView.swift */,
+				750B8A492C7E2A94005B8304 /* Model */,
+				750B8A4A2C7E2A9C005B8304 /* View */,
+				750B8A4B2C7E2AA2005B8304 /* View-Model */,
 				5E87DC6C2C6232430005D86C /* Vought Showcase */,
 				5E87DC832C6232440005D86C /* Vought ShowcaseTests */,
 				5E87DC8D2C6232440005D86C /* Vought ShowcaseUITests */,
@@ -217,6 +237,34 @@
 				5E1E353E2C6247C5000D7DEF /* ImageViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		750B8A492C7E2A94005B8304 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				750B8A3B2C7E29B5005B8304 /* Home.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		750B8A4A2C7E2A9C005B8304 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				750B8A3D2C7E29C3005B8304 /* LoadingRectangle.swift */,
+				750B8A3F2C7E29D4005B8304 /* StoryProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		750B8A4B2C7E2AA2005B8304 /* View-Model */ = {
+			isa = PBXGroup;
+			children = (
+				750B8A412C7E29E2005B8304 /* StoryTimer.swift */,
+				750B8A432C7E29EC005B8304 /* StoryController.swift */,
+				750B8A472C7E2A07005B8304 /* CarouselView.swift */,
+				750B8A452C7E29FB005B8304 /* IntermediateView.swift */,
+			);
+			path = "View-Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,19 +399,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750B8A3E2C7E29C3005B8304 /* LoadingRectangle.swift in Sources */,
 				5E1E35442C62497D000D7DEF /* HomeLanderCarouselItem.swift in Sources */,
+				750B8A482C7E2A07005B8304 /* CarouselView.swift in Sources */,
+				750B8A422C7E29E2005B8304 /* StoryTimer.swift in Sources */,
 				5E87DCA02C6236A30005D86C /* CarouselViewController.swift in Sources */,
 				5E87DC722C6232430005D86C /* MainViewController.swift in Sources */,
 				5E1E35482C624B31000D7DEF /* BlackNoirCarouselItem.swift in Sources */,
 				5E1E354A2C624BAB000D7DEF /* ATrainCarouselItem.swift in Sources */,
 				5E87DC6E2C6232430005D86C /* AppDelegate.swift in Sources */,
+				750B8A402C7E29D4005B8304 /* StoryProgressView.swift in Sources */,
 				5E1E35462C624AB9000D7DEF /* MaeveCarouselItem.swift in Sources */,
 				5E1E354F2C624C2A000D7DEF /* CarouselItemDataSourceProviderType.swift in Sources */,
+				750B8A462C7E29FB005B8304 /* IntermediateView.swift in Sources */,
 				5E1E353D2C623996000D7DEF /* UIViewController+AddChild.swift in Sources */,
 				5E1E35512C624C4D000D7DEF /* CarouselItemDataSourceProvider.swift in Sources */,
 				5E1E35422C6248A6000D7DEF /* CarouselItem.swift in Sources */,
+				750B8A3A2C7E299E005B8304 /* ContentView.swift in Sources */,
 				5E1E353F2C6247C5000D7DEF /* ImageViewController.swift in Sources */,
 				5E87DC702C6232430005D86C /* SceneDelegate.swift in Sources */,
+				750B8A442C7E29EC005B8304 /* StoryController.swift in Sources */,
+				750B8A3C2C7E29B5005B8304 /* Home.swift in Sources */,
 				5E1E35572C634D75000D7DEF /* SegmentedProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

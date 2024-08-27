@@ -39,17 +39,20 @@ struct CarouselView: View {
     }
 
     private func handleTap(location: CGPoint) {
-        let screenWidth = UIScreen.main.bounds.width
-        let midX = screenWidth / 2
-        if location.x > midX {
-            storyController.handleRightTap(imagesCount: imagesNames.count)
-        } else {
-            storyController.handleLeftTap()
-        }
-
-        
-        if Int(storyController.progress) == imagesNames.count - 1 {
-            isPresented = false
+            let screenWidth = UIScreen.main.bounds.width
+            let midX = screenWidth / 2
+            
+            if location.x > midX {
+                
+                if Int(storyController.progress) < imagesNames.count - 1 {
+                    storyController.handleRightTap(imagesCount: imagesNames.count)
+                } else if Int(storyController.progress) == imagesNames.count - 1 {
+                    
+                    isPresented = false
+                }
+            } else {
+                
+                storyController.handleLeftTap()
+            }
         }
     }
-}
